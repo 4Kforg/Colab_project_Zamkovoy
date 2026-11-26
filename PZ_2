@@ -1,1 +1,70 @@
-
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPJ+xzcSKnjUrf7o+cA8Yrs",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/4Kforg/Colab_project_Zamkovoy/blob/main/PZ_2\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Z-S82osDr2CL",
+        "outputId": "8bb11528-24a1-484e-dd39-0a2ef4dfa61e"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Введите трехзначное число: 984\n",
+            "Первая цифра (сотни): 9\n"
+          ]
+        }
+      ],
+      "source": [
+        "#Дано трехзначное число. Используя одну операцию деления нацело,\n",
+        "#вывести первую цифру данного числа (сотни)\n",
+        "# Ввод трехзначного числа\n",
+        "number = int(input(\"Введите трехзначное число: \"))\n",
+        "\n",
+        "# Вычисление первой цифры (сотен) с помощью деления нацело на 100\n",
+        "first_digit = number // 100\n",
+        "\n",
+        "# Вывод результата\n",
+        "print(f\"Первая цифра (сотни): {first_digit}\")\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "ekOOp87Vx8kJ"
+      }
+    }
+  ]
+}
